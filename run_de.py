@@ -23,5 +23,5 @@ if __name__ == "__main__":
             # print(regr.intercept_)
     run()
     data = pd.DataFrame({'coef': coef_lst, 'interception': int_lst})
-    np.savez_compressed('data.npz', **data)
+    np.savez_compressed('data_depend.npz', **data)
     plt.show()

@@ -12,7 +12,8 @@ def init_cell(cell_id, born_time, expected_division_time, is_alive):
 
 
 def time_independent_sample():
-    x = np.random.gamma(2,2)
+    x = np.random.gamma(5,1)
+    # x = np.random.exponential(0.2)
     return x
 
 
